@@ -1,0 +1,7 @@
+CAPÍTULO 18 - Aprendendo Git e GitHub
+
+site:
+qr-code-generator.com (Criação de qr-code)
+
+CAPÍTULO 19 - IMAGENS DE FUNDO
+
