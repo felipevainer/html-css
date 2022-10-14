@@ -5,5 +5,5 @@ qr-code-generator.com (Criação de qr-code)
 
 CAPÍTULO 19 - IMAGENS DE FUNDO
 
-background-image: url('imagens/pattern003.png')  (Cria uma imagem de fundo com a imagem que você tem guardada na pasta)
+background-image: url('imagens/pattern003.png')  (Cria uma imagem de fundo com a imagem que você tem guardada na pasta. Obs¹: Pode colocar uma url externa)
 
