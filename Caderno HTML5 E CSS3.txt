@@ -6,4 +6,6 @@ qr-code-generator.com (Criação de qr-code)
 CAPÍTULO 19 - IMAGENS DE FUNDO
 
 background-image: url('imagens/pattern003.png')  (Cria uma imagem de fundo com a imagem que você tem guardada na pasta. Obs¹: Pode colocar uma url externa)
+background-size: 100px 100px  (Tamanho da cor de fundo pode ser modificado)
+background-repeat: no-repeat  (No-repeat não repete a imagem, repeat repete a imagem, tem o repeat-x que é o eixo horizontal e o repeat-y que é o eixo vertical)
 
