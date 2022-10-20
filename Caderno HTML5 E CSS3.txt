@@ -4,6 +4,27 @@ CAPÍTULO 04 - PRIMEIROS PASSOS HTML
 <p> paragráfo </p>
 <hr> linha horizontal
 
+=============================================================================================================================================================
+CAPÍTULO 21 - TABELAS EM HTML
+
+Hierarquia de tabelas simples
+
+<table> tabela </table>
+<tr> linha de tabela </tr>
+<table header> cabeçalho de tabela </table header>
+<td> dado de tabela </td>
+
+border-collapse: colapse; \\ Usado para juntar as bordas
+vertical-align: middle; \\ Alinhamento vertical por padrão é middle, pode usar top e bottom também.
+
+Obs¹: O fechamento do <td> e <tr> é opcional. Se a hierarquia estiver errada os dados iram aparecer de forma errada.
+
+
+
+
+
+
+
 
 
 
