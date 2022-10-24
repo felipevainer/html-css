@@ -13,6 +13,7 @@ Hierarquia de tabelas simples:
 <tr> linha de tabela </tr>
 <th> cabeçalho de tabela </th>
 <td> dado de tabela </td>
+<caption> legenda da tabela </caption>
 
 border-collapse: colapse; \\ Usado para juntar as bordas
 vertical-align: middle; \\ Alinhamento vertical por padrão é middle, pode usar top e bottom também.
@@ -20,12 +21,25 @@ vertical-align: middle; \\ Alinhamento vertical por padrão é middle, pode usar
 Anatomia para tabelas grandes:
 
 TABLE
+      CAPTION
      THEAD
 	TR, TD, TH
      TBODY
 	TR, TD, TH
      TFOOT
 	TR, TD, TH
+
+<th scope="col"> O escolpo avisa que após o cabeçalho vem dados abaixo</th>
+<th scope="row">O escolpo avisa que após o cabeçalho ao lado vem outro dado/th>
+<td colspan="2">B</td> !-- Neste exemplo o B vai aparecer em duas colunas --
+<td rowspan="3">F</td> !-- Neste exemplo espande o f por três linhas --
+:nth-child(2n){Pseúdo classe que faz o efeito zebrado na tabela. No lugar do 2n pode usar even que quer dizer par, e no lugar de 2n-1 pode usar o add que quer dizer ímpar}
+
+Como criar cabeçalho fixo em tabelas:
+table {position: relative;}
+thead > tr > th {position: sticky; /* colavel */
+top: 0;  /* Vai colar na parte 0 */
+background-color: darkgrey;}
 
 Obs¹: O fechamento do <td> e <tr> é opcional. Se a hierarquia estiver errada os dados iram aparecer de forma errada.
 
