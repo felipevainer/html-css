@@ -31,6 +31,8 @@ TABLE
 
 <th scope="col"> O escolpo avisa que após o cabeçalho vem dados abaixo</th>
 <th scope="row">O escolpo avisa que após o cabeçalho ao lado vem outro dado/th>
+<th scope="colgroup">O escolpo avisa que após o cabeçalho há um grupo de colunas</th>
+<th> scope="rowgroup">O escolpo avisa que após o cabeçalho há um grupo de linhas</th>
 <td colspan="2">B</td> !-- Neste exemplo o B vai aparecer em duas colunas --
 <td rowspan="3">F</td> !-- Neste exemplo espande o f por três linhas --
 :nth-child(2n){Pseúdo classe que faz o efeito zebrado na tabela. No lugar do 2n pode usar even que quer dizer par, e no lugar de 2n-1 pode usar o add que quer dizer ímpar}
