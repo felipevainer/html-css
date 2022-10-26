@@ -15,6 +15,8 @@ Hierarquia de tabelas simples:
 <td> dado de tabela </td>
 <caption> legenda da tabela </caption>
 
+<colgroup><col class="cgrupo" span="2"> grupo de colunas e colunas. muito usado para usar o efeito de zebramento nas colunas. O span 2 serve para colocar na promeira e segunda coluna</colgroup>
+
 border-collapse: colapse; \\ Usado para juntar as bordas
 vertical-align: middle; \\ Alinhamento vertical por padrão é middle, pode usar top e bottom também.
 
