@@ -45,9 +45,17 @@ thead > tr > th {position: sticky; /* colavel */
 top: 0;  /* Vai colar na parte 0 */
 background-color: darkgrey;}
 
+para criar uma tabela responsiva usa uma div envelopando tudo, inclusive o table, vai no css e coloca div#nome da div e usa overflow para os dois eixos da tela e tem overflow-y e overflow-x. overflow-x: auto; resolve na maioria das vezes.
+
 Obs¹: O fechamento do <td> e <tr> é opcional. Se a hierarquia estiver errada os dados iram aparecer de forma errada.
 
+=============================================================================================================================================================
+CAPÍTULO 22 - IFRAME
 
+<iframe src="https://www.cursoemvideo.com" frameborder="0" scolling="no"></iframe> (Cria um quadro linha na tela com borda transparente, o 0 é sem borda e o 1 é com borda. O scolling é a barra de rolagem, tem o auto que é padrão, o yes que tem rolagem e o no que é sem a rolagem)
+
+Tamanho padrão do iframe é de 300x150
+ 
 
 
 
