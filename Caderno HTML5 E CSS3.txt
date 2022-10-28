@@ -52,7 +52,7 @@ Obs¹: O fechamento do <td> e <tr> é opcional. Se a hierarquia estiver errada o
 =============================================================================================================================================================
 CAPÍTULO 22 - IFRAME
 
-<iframe src="https://www.cursoemvideo.com" frameborder="0" scolling="no"></iframe> (Cria um quadro linha na tela com borda transparente, o 0 é sem borda e o 1 é com borda. O scolling é a barra de rolagem, tem o auto que é padrão, o yes que tem rolagem e o no que é sem a rolagem)
+<iframe src="https://www.cursoemvideo.com" frameborder="0" scolling="no" name="frame"></iframe> (Cria um quadro linha na tela com borda transparente, o 0 é sem borda e o 1 é com borda. O scolling é a barra de rolagem, tem o auto que é padrão, o yes que tem rolagem e o no que é sem a rolagem. Se eu criar um nome para a tag eu posso colocar um target na tag a chamada frame para abrir a página nela.)
 
 Tamanho padrão do iframe é de 300x150
  
