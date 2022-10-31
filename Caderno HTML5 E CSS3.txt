@@ -52,9 +52,17 @@ Obs¹: O fechamento do <td> e <tr> é opcional. Se a hierarquia estiver errada o
 =============================================================================================================================================================
 CAPÍTULO 22 - IFRAME
 
-<iframe src="https://www.cursoemvideo.com" frameborder="0" scolling="no" name="frame"></iframe> (Cria um quadro linha na tela com borda transparente, o 0 é sem borda e o 1 é com borda. O scolling é a barra de rolagem, tem o auto que é padrão, o yes que tem rolagem e o no que é sem a rolagem. Se eu criar um nome para a tag eu posso colocar um target na tag a chamada frame para abrir a página nela.)
+<iframe src="https://www.cursoemvideo.com" frameborder="0" scolling="no" name="frame" srcdoc=""></iframe> (Cria um quadro linha na tela com borda transparente, o 0 é sem borda e o 1 é com borda. O scolling é a barra de rolagem, tem o auto que é padrão, o yes que tem rolagem e o no que é sem a rolagem. Se eu criar um nome para a tag eu posso colocar um target na tag a chamada frame para abrir a página nela. Com srcdoc podemos escrever linhas html dentro.)
+
+formas de proteger seu site usando iframe:
+Dentro do iframe coloca um parâmetro chamado sandbox="sandbox" isso vai permitir que nenhum formulário seja clicado, outra forma é usando dentro do iframe o referrerpolicy="no-referrer" isso vai fazer com que o robo de busca do google não considere esse iframe.
 
 Tamanho padrão do iframe é de 300x150
+
+=============================================================================================================================================================
+CAPÍTULO 23 - REDES SOCIAIS
+
+
  
 
 
